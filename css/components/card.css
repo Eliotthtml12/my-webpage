@@ -1,0 +1,35 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    max-height: 150px; /* Adjust this value to control image height */
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+

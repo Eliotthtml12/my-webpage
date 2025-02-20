@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Trainer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/avatar.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/card.css">
+    <link rel="stylesheet" href="css/components/container.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Fitness Trainer</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     
+    </header>
+
+    <section id="hero" class="banner">
+        <div class="hero-content container">
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Join our fitness community and achieve your goals with personalized training.</p>
+            <a href="#get-started-form" class="cta-button">Get Started Today</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Your Trainer</h2>
+        <div class="about-content">
+            <img src="images/avatar.jpeg" alt="Trainer Avatar" class="avatar">
+            <p>I am an experienced fitness trainer dedicated to helping you reach your fitness goals. With over 10 years in the industry, I specialize in <strong>strength training, weight loss, and functional fitness</strong>. My motivational coaching style and personalized workout plans are designed to help you achieve your best self. I combine tailored exercises with nutritional guidance to ensure you see results. My positive attitude and commitment to your success make me a trusted partner in your fitness journey.</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/pt.jpg" alt="Personal Training">
+                <h3>Personal Training</h3>
+                <p>One-on-one sessions tailored to your needs.</p>
+            </div>
+            <div class="card">
+                <img src="images/gp.jpg" alt="Group Classes">
+                <h3>Group Classes</h3>
+                <p>Join our energetic group fitness classes.</p>
+            </div>
+            <div class="card">
+                <img src="images/np.jpg" alt="Nutrition Planning">
+                <h3>Nutrition Planning</h3>
+                <p>Customized meal plans to support your fitness journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"This fitness program changed my life!" - James Carter </p>
+            </div>
+            <div class="testimonial">
+                <p>"Amazing results in just a few weeks!" - Emily Johnson </p>
+            </div>
+            <div class="testimonial">
+                <p>"I've never felt better! Highly recommend this program." - Michael Brown </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Latest from the Blog</h2>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <img src="" alt="Blog Post 1">
+                <h3>Blog Post Title</h3>
+                <p>Excerpt of the blog post...</p>
+            </div>
+            <div class="blog-post">
+                <img src="" alt="Blog Post 2">
+                <h3>Blog Post Title</h3>
+                <p>Excerpt of the blog post...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <section id="get-started-form" class="container hidden-form">
+        <h2>Get Started Today</h2>
+        <form class="get-started-form">
+            <input type="text" placeholder="Name" required>
+            <input type="number" placeholder="Age" required>
+            <input type="number" placeholder="Height (cm)" required>
+            <input type="number" placeholder="Weight (kg)" required>
+            <textarea placeholder="Goals" required></textarea>
+            <label for="price">Choose a Plan:</label>
+            <select id="price" name="price" required>
+                <option value="basic">Basic - $29.99/month</option>
+                <option value="standard">Standard - $49.99/month</option>
+                <option value="premium">Premium - $79.99/month</option>
+            </select>
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
